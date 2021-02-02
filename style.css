@@ -46,7 +46,7 @@ section {
 .color_container, .typo_container, .hierachy_container {
     display: flex;
     justify-content: space-evenly;
-    margin: 5px 0;
+    
     text-align: center;
 }
 
@@ -71,6 +71,11 @@ section {
 
 .white {
     background-color: #F4F6F5;
+}
+
+.typography {
+    border: 1px solid gray;
+    padding-top: 15px;
 }
 
 .typeface {
