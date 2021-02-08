@@ -28,7 +28,6 @@ h2 {
     font-size: 1.5rem;
     text-transform: uppercase;
     padding-bottom: 10px;
-    
 }
 
 h3 {
@@ -41,7 +40,7 @@ h4 {
 }
 
 section {
-    padding: 5px;
+    padding: 10px;
     margin: 10px 20px;
 }
 
@@ -52,8 +51,8 @@ section {
 }
 
 .color {
-    height: 100px;
-    width: 100px;
+    height: 120px;
+    width: 120px;
     border-radius: 100%;
 }
 
@@ -79,7 +78,6 @@ section {
 
 .typeface {
     width: 250px;
-    margin-bottom: 1rem;
 }
 
 .typeface h3 {
@@ -173,6 +171,18 @@ section {
     }
 }
 
+@media only screen and (max-width: 575px) {
+    .color_container {
+        flex-flow: row wrap;
+        align-items: center;
+    }
+
+    .color_container div {
+        margin: 0 1rem;
+        padding-bottom: 1rem;
+    }
+}
+
 @media only screen and (max-width: 480px) {
     .color_container {
         flex-flow: row wrap;
@@ -201,5 +211,16 @@ section {
 
     .fatface .bold{
         font-size: 1rem;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .typo_container {
+        flex-flow: row wrap;
+        align-items: center;
+    }
+
+    .typeface {
+        margin-bottom: 1rem;
     }
 }
